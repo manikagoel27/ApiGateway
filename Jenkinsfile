@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPLOY_DIR = "${WORKSPACE}\\deployment"  // Deployment directory relative to Jenkins workspace
-        JAR_NAME = 'ApiGateway 1.0-SNAPSHOT'
+        JAR_NAME = 'ApiGateway-1.0-SNAPSHOT.jar'
     }
 
     stages {

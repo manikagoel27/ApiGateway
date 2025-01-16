@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
-        <module name="CartService" />
-        <module name="ApiGateway" />
         <module name="ProductService" />
         <module name="InventoryService" />
         <module name="ProductDetailsService" />
+        <module name="CartService" />
+        <module name="NotificationService" />
+        <module name="ApiGateway" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="CartService" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="InventoryService" options="-parameters" />
+      <module name="NotificationService" options="-parameters" />
       <module name="ProductDetailsService" options="-parameters" />
       <module name="ProductService" options="-parameters" />
     </option>
